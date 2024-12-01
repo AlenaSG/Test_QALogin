@@ -377,6 +377,28 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
+      "Selenium.WebDriver/4.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Selenium.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/71.0.3578.137": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
@@ -966,6 +988,43 @@
         "nuget.frameworks.nuspec"
       ]
     },
+    "Selenium.WebDriver/4.27.0": {
+      "sha512": "bMIpqwpBfYLa1lh8gPVa6A1i9LeWNsfc2mR9why0DutEKI7ck3GVxzco1bB/8bv+7IA6rk4sR9WpZLRUnH/AAw==",
+      "type": "package",
+      "path": "selenium.webdriver/4.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
+        "icon.png",
+        "lib/net8.0/WebDriver.dll",
+        "lib/net8.0/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.27.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/71.0.3578.137": {
+      "sha512": "CjoQh2GovtIeS3BfiL/IEVyqxQu0dWVL+xexWY42yvmgaCv3QeyhnbZRj0stwjNY6lOxXFpWzECaZ7XI9kAl0g==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/71.0.3578.137",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "selenium.webdriver.chromedriver.71.0.3578.137.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
     "System.Reflection.Metadata/1.6.0": {
       "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
@@ -993,6 +1052,8 @@
       "MSTest.TestAdapter >= 3.1.1",
       "MSTest.TestFramework >= 3.1.1",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "Selenium.WebDriver >= 4.27.0",
+      "Selenium.WebDriver.ChromeDriver >= 71.0.3578.137",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -1003,11 +1064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alenagolovina/Desktop/Test_QALogin/TestProjectLogin/TestProjectLogin.csproj",
-      "projectName": "TestProjectLogin",
-      "projectPath": "/Users/alenagolovina/Desktop/Test_QALogin/TestProjectLogin/TestProjectLogin.csproj",
+      "projectUniqueName": "/Users/alenagolovina/Desktop/Test_QALogin/UITestProject/UITestProject.csproj",
+      "projectName": "UITestProject",
+      "projectPath": "/Users/alenagolovina/Desktop/Test_QALogin/UITestProject/UITestProject.csproj",
       "packagesPath": "/Users/alenagolovina/.nuget/packages/",
-      "outputPath": "/Users/alenagolovina/Desktop/Test_QALogin/TestProjectLogin/obj/",
+      "outputPath": "/Users/alenagolovina/Desktop/Test_QALogin/UITestProject/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -1053,6 +1114,14 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.27.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[71.0.3578.137, )"
           },
           "coverlet.collector": {
             "target": "Package",

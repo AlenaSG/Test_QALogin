@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NxirwvYP8cE+ocLPrgWDJu7mCKqVr2KWWALJ1YHs/WtfWKKKRBCYY35hQ5h9mO4f1vSqEZMYy3/4yWW/i+6PBQ==",
+  "dgSpecHash": "kUUHxhG7Z20ZdLDjS6hisFoTXB+9NlR01tiWLGjGcbowSOQdsgsI8ZmL5GoAw7wDqK8UrBnA1zinFlL9JSg5ng==",
   "success": true,
-  "projectFilePath": "/Users/alenagolovina/Desktop/Test_QALogin/TestProjectLogin/TestProjectLogin.csproj",
+  "projectFilePath": "/Users/alenagolovina/Desktop/Test_QALogin/UITestProject/UITestProject.csproj",
   "expectedPackageFiles": [
     "/Users/alenagolovina/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/alenagolovina/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -13,6 +13,8 @@
     "/Users/alenagolovina/.nuget/packages/mstest.testframework/3.1.1/mstest.testframework.3.1.1.nupkg.sha512",
     "/Users/alenagolovina/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/alenagolovina/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/Users/alenagolovina/.nuget/packages/selenium.webdriver/4.27.0/selenium.webdriver.4.27.0.nupkg.sha512",
+    "/Users/alenagolovina/.nuget/packages/selenium.webdriver.chromedriver/71.0.3578.137/selenium.webdriver.chromedriver.71.0.3578.137.nupkg.sha512",
     "/Users/alenagolovina/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
